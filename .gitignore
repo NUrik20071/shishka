@@ -1,0 +1,23 @@
+# Local environment
+.env
+.env.*
+!.env.example
+*.local
+.DS_Store
+Thumbs.db
+
+# Editors
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Dependencies and build output (for future app tooling)
+node_modules/
+dist/
+build/
+.gradle/
+.idea/
+local.properties
+*.apk
+*.aab
